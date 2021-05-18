@@ -9,8 +9,8 @@ import "./App.css";
 // Hoe maak je van iets een component
 // 1. Begin de HTML gewoon uit te schrijven (maak eerst wat je wil)
 // 2. Als tevreden bent met je pagina kun een component "refactoren", opschonen
-//   - [ ] Kopier een component met alle data erin
-//   - [ ] Zet het in een ander JavaScript bestand
+//   - [x] Kopier een component met alle data erin
+//   - [x] Zet het in een ander JavaScript bestand
 //   - [ ] Maak een component functie
 //   - [ ] Die component returned JSX
 //   - [ ] Importeer je component functie in App (of waar je hem wil gebruiken)
