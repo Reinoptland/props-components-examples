@@ -18,6 +18,15 @@ import ImageCard from "./ImageCard";
 //   - [x] Exporteer je component functie (export default)
 //   - [x] Importeer je component functie in App (of waar je hem wil gebruiken)
 //   - [x] Gebruik je component functie met JSX syntax
+// 3. Is component af, maar "gehardcode", alles heeft altijd dezelfde waard
+//    gebruik props om het component dynamisch te maken
+//   - [ ] voeg attribuut to in de jsx (je mag kiezen hoe het attribuut heet)
+//   - [ ] geeft het attribuut een waarde
+//   - [ ] in de component functie gebruiken maken van de "prop" die is doorgegeven
+//      - [ ] props toevoegen als parameter van de component functie
+//      - [ ] De juiste prop eruit halen en gebruiken in je component
+//   - [ ] Interpoleren in JSX
+
 function App() {
   return (
     <div className="App">
