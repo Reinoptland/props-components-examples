@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import ImageCard from "./ImageCard";
 
 // Beginscherm van de applicatie
 // javascript of html bestand?
@@ -14,12 +15,16 @@ import "./App.css";
 //   - [x] Maak een component functie
 //   - [x] Die component functie returned JSX
 //   - [x] Optioneel: voeg een div toe als je component uit meerder tags bestaat
-//   - [ ] Importeer je component functie in App (of waar je hem wil gebruiken)
-//   - [ ] Gebruik je component functie met JSX syntax
+//   - [x] Exporteer je component functie (export default)
+//   - [x] Importeer je component functie in App (of waar je hem wil gebruiken)
+//   - [x] Gebruik je component functie met JSX syntax
 function App() {
   return (
     <div className="App">
-      <h2>Nature</h2>
+      <ImageCard />
+      <ImageCard />
+      <ImageCard />
+      {/* <h2>Nature</h2>
       <img src="https://source.unsplash.com/1600x900/?nature" />
 
       <h2>Cheese</h2>
@@ -29,7 +34,7 @@ function App() {
       <img src="https://source.unsplash.com/1600x900/?travel" />
 
       <h2>Animals</h2>
-      <img src="https://source.unsplash.com/1600x900/?animals" />
+      <img src="https://source.unsplash.com/1600x900/?animals" /> */}
     </div>
   );
 }
