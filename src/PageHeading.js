@@ -1,5 +1,6 @@
-function PageHeading() {
-  return <h1>Image Gallery</h1>;
+function PageHeading(props) {
+  console.log("WHAT ARE PROPS IN PAGEHEADING:", props);
+  return <h1>{props.pageTitle}</h1>;
 }
 
 export default PageHeading;

@@ -31,12 +31,14 @@ import PageHeading from "./PageHeading";
 function App() {
   return (
     <div className="App">
-      <PageHeading />
+      <PageHeading pageTitle={"Image Gallery"} />
+      <PageHeading pageTitle={"About"} />
+      <PageHeading pageTitle="Contact" />
 
-      <ImageCard subject={"nature"} />
-      <ImageCard subject={"travel"} />
-      <ImageCard subject={"cheese"} />
-      <ImageCard subject={"animals"} />
+      <ImageCard subject="nature" />
+      <ImageCard subject="travel" />
+      <ImageCard subject="cheese" />
+      <ImageCard subject="animals" />
     </div>
   );
 }
