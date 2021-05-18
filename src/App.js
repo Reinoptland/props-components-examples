@@ -30,21 +30,12 @@ import ImageCard from "./ImageCard";
 function App() {
   return (
     <div className="App">
+      <h1>Image Gallery</h1>
+
       <ImageCard subject={"nature"} />
       <ImageCard subject={"travel"} />
       <ImageCard subject={"cheese"} />
       <ImageCard subject={"animals"} />
-      {/* <h2>Nature</h2>
-      <img src="https://source.unsplash.com/1600x900/?nature" />
-
-      <h2>Cheese</h2>
-      <img src="https://source.unsplash.com/1600x900/?cheese" />
-
-      <h2>Travel</h2>
-      <img src="https://source.unsplash.com/1600x900/?travel" />
-
-      <h2>Animals</h2>
-      <img src="https://source.unsplash.com/1600x900/?animals" /> */}
     </div>
   );
 }
