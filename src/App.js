@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import ImageCard from "./ImageCard";
+import PageHeading from "./PageHeading";
 
 // Beginscherm van de applicatie
 // javascript of html bestand?
@@ -30,7 +31,7 @@ import ImageCard from "./ImageCard";
 function App() {
   return (
     <div className="App">
-      <h1>Image Gallery</h1>
+      <PageHeading />
 
       <ImageCard subject={"nature"} />
       <ImageCard subject={"travel"} />
