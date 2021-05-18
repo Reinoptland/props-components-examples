@@ -11,8 +11,9 @@ import "./App.css";
 // 2. Als tevreden bent met je pagina kun een component "refactoren", opschonen
 //   - [x] Kopier een component met alle data erin
 //   - [x] Zet het in een ander JavaScript bestand
-//   - [ ] Maak een component functie
-//   - [ ] Die component returned JSX
+//   - [x] Maak een component functie
+//   - [x] Die component functie returned JSX
+//   - [x] Optioneel: voeg een div toe als je component uit meerder tags bestaat
 //   - [ ] Importeer je component functie in App (of waar je hem wil gebruiken)
 //   - [ ] Gebruik je component functie met JSX syntax
 function App() {
