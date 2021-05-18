@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import ImageCard from "./ImageCard";
 import PageHeading from "./PageHeading";
+import TextContent from "./TextContent";
 
 // Beginscherm van de applicatie
 // javascript of html bestand?
@@ -34,6 +35,19 @@ function App() {
       <PageHeading pageTitle={"Image Gallery"} />
       <PageHeading pageTitle={"About"} />
       <PageHeading pageTitle="Contact" />
+
+      <TextContent>
+        <h1>Hallo</h1>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+        doloremque hic eos voluptates sapiente ullam in libero. Quia sit, magni
+        modi dolores ut eum consectetur voluptate qui ducimus reiciendis minus.
+      </TextContent>
+
+      <TextContent>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+        pariatur doloribus totam maxime! Nemo debitis magni vero minus in
+        excepturi, porro modi odio doloremque saepe est ad ea, voluptatem non.
+      </TextContent>
 
       <ImageCard subject="nature" />
       <ImageCard subject="travel" />

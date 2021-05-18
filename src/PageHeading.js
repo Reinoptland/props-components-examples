@@ -1,5 +1,5 @@
 function PageHeading(props) {
-  console.log("WHAT ARE PROPS IN PAGEHEADING:", props);
+  console.log("WHAT DO I HAVE?", props);
   return <h1>{props.pageTitle}</h1>;
 }
 
