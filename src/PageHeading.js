@@ -1,6 +1,6 @@
-function PageHeading(props) {
+function PageHeading({ pageTitle }) {
   console.log("WHAT DO I HAVE?", props);
-  return <h1>{props.pageTitle}</h1>;
+  return <h1>{pageTitle}</h1>;
 }
 
 export default PageHeading;
